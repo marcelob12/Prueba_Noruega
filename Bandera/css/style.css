@@ -1,42 +1,72 @@
-
-.bandera{
-    display: grid;
-    grid-template-columns: 300px 100px 400px;
-    grid-template-rows: repeat(3,auto);
-    gap: 25px;
-    max-width: 1000px; 
+.flag{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+/*azul centrado a la izquierda*/
+.blue-center-left{
+    width: 30%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background:#003087;
 }
 
-.red-left1{
-  background-color: #C8102E;
-  width: 300px;
-  height: 250px;
+/*blanco arriba izquierda*/
+.white-top-left{
+    width: 90%;
+    height: 40%;
+    display: flex;
+    align-items: flex-start;
+    background: white;
 }
-.blue1{
-    background-color: #003087;
-    width: 80px;
-    grid-row: span 4;
-    padding: 5px;
+/*blanco izquierda abajo*/
+.white-left-down{
+    width: 90%;
+    height: 40%;
+    display: flex;
+    align-items: flex-end;
+    background: white;
 }
-.red-left2{
-    background-color: #C8102E;
-    width: 300px;
-    height: 250px;
+.red-left{
+    width: 93%;
+    height: 90%;
+    background: #C8102E;
 }
-.blue-center{
-    background-color: #003087;
-    grid-row: span 2;
-    width: 1000px;
-    height: 80px;
+/*azul centrado a la derecha*/
+.blue-center-right{
+    width: 60%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    align-items: flex-end;
+    background: #003087;
 
 }
-.red-right2{
-    background-color:#C8102E;
-    width: 550px;
-
+/*blanco arriba a la derecha*/
+.white-top-right{
+    width: 90%;
+    height: 40%;
+    display: flex;
+    justify-content: flex-end;
+    background: white;
 }
-.red-right1{
-    background-color:#C8102E;
-    width: 550px;  
+/*blanco abajo a la derecha*/
+.white-down-right  {
+    width: 90%;
+    height: 40%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    background: white;
+}
 
+/*cuadros del lado izquierdo*/
+
+.red-right{
+    width: 96%;
+    height: 90%;
+    background: #C8102E;
 }
