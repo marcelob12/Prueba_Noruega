@@ -1,12 +1,28 @@
+
+/*cuerpo de la bandera*/
 .flag{
     width: 100%;
-    height: 500px;
+    height: 800px;
     display: flex;
+    justify-content: center;
+}
+/*azul centrado a la derecha*/
+.blue-center-right{
+    width: 50%;
+    height: 60%;
+    padding-inline-start: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    align-items: flex-start;
+    background: #003087;
+
 }
 /*azul centrado a la izquierda*/
 .blue-center-left{
-    width: 30%;
-    height: 70%;
+    width: 35%;
+    height: 60%;
+    padding-inline-end: 10px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -16,57 +32,56 @@
 /*blanco arriba izquierda*/
 .white-top-left{
     width: 90%;
-    height: 40%;
+    height:42%;
     display: flex;
+    padding: 0 0 10px 0;
     align-items: flex-start;
     background: white;
 }
 /*blanco izquierda abajo*/
 .white-left-down{
     width: 90%;
-    height: 40%;
+    height:42%;
+    padding:10px 0 0 0;
     display: flex;
     align-items: flex-end;
     background: white;
 }
-.red-left{
-    width: 93%;
-    height: 90%;
-    background: #C8102E;
-}
-/*azul centrado a la derecha*/
-.blue-center-right{
-    width: 60%;
-    height: 70%;
-    display: flex;
-    flex-direction: column;
-    justify-content:space-between;
-    align-items: flex-end;
-    background: #003087;
-
-}
 /*blanco arriba a la derecha*/
 .white-top-right{
-    width: 90%;
-    height: 40%;
+    width: 100%;
+    height:42%;
+    padding: 0 0 10px 0;
+    margin-left: 10px;
     display: flex;
-    justify-content: flex-end;
+    justify-content: flex-start;
     background: white;
 }
 /*blanco abajo a la derecha*/
 .white-down-right  {
-    width: 90%;
-    height: 40%;
+    width: 100%;
+    height:42%;
+    padding: 10px 0 0 0;
+    margin-left: 10px;
     display: flex;
     align-items: flex-end;
     justify-content: flex-end;
     background: white;
 }
-
-/*cuadros del lado izquierdo*/
-
-.red-right{
+/*cuadros rojos de la izquierda(arriba,abajo)*/
+.red-left{
     width: 96%;
     height: 90%;
+    margin-right: 35px;
     background: #C8102E;
 }
+
+/*cuadros del lado derecho*/
+.red-right{
+    width: 96%;
+    height:90%;
+    margin-left: 35px;
+    background: #C8102E;
+}
+
+/*uso de flex para realizar una estructura mas amigable, haciendo uso de columnas a la hora de hacer el diseño*/
