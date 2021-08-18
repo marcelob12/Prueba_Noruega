@@ -2,37 +2,37 @@
 /*cuerpo de la bandera*/
 .flag{
     width: 100%;
-    height: 900px;
+    height:900px;
     display: flex;
     justify-content: center;
 }
 /*azul centrado a la derecha*/
 .blue-center-right{
     width: 40%;
-    height:55%;
+    height:60%;
     padding-inline-start:10px;
     display: flex;
     flex-direction: column;
     justify-content:space-between;
-    align-items:flex-start;
+    align-items:flex-end;
     background: #003087;
 
 }
 /*azul centrado a la izquierda*/
 .blue-center-left{
     width: 30%;
-    height: 55%;
+    height: 60%;
     padding-inline-end: 10px;
     display: flex;
-    align-items:stretch;
+    align-items:flex-start;
     flex-direction: column;
     justify-content: space-between;
     background: #003087;
 }
 /*blanco arriba izquierda*/
 .white-top-left{
-    width: 85%;
-    height:45%;
+    width: 90%;
+    height:48%;
     display: flex;
     
     align-items: flex-start;
@@ -40,9 +40,9 @@
 }
 /*blanco izquierda abajo*/
 .white-left-down{
-    width: 85%;
-    height:45%;
-    
+    width: 90%;
+    height:43%;
+   
     display: flex;
     align-items: flex-end;
     background: white;
@@ -50,8 +50,8 @@
 /*blanco arriba a la derecha*/
 .white-top-right{
     width:100%;
-    height:45%;
-    margin-right: 20px;
+    height:48%;
+    margin-left: -1px;
     display: flex;
     justify-content: flex-end;
     background: white;
@@ -59,25 +59,26 @@
 /*blanco abajo a la derecha*/
 .white-down-right  {
     width:100%;
-    height:45%;
-  
-   
+    height:43%;
+    margin-left: -1px;
     display: flex;
     align-items: flex-end;
-    justify-content: flex-end;
+    justify-content: flex-start;
     background: white;
 }
 /*cuadros rojos de la izquierda(arriba,abajo)*/
 .red-left{
-    width: 85%;
+    width: 100%;
     height: 90%;
+    margin-right: 25px;
     background: #C8102E;
 }
 
 /*cuadros del lado derecho*/
 .red-right{
-    width: 90%;
-    height:90%;
+    width: 100%;
+    height: 90%;
+    margin-left: 25px;
     background: #C8102E;
 }
 
