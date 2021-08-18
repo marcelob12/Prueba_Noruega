@@ -2,14 +2,14 @@
 /*cuerpo de la bandera*/
 .flag{
     width: 100%;
-    height: 800px;
+    height: 900px;
     display: flex;
     justify-content: center;
 }
 /*azul centrado a la derecha*/
 .blue-center-right{
-    width: 55%;
-    height: 60%;
+    width: 40%;
+    height:55%;
     padding-inline-start:10px;
     display: flex;
     flex-direction: column;
@@ -20,10 +20,11 @@
 }
 /*azul centrado a la izquierda*/
 .blue-center-left{
-    width: 35%;
-    height: 60%;
+    width: 30%;
+    height: 55%;
     padding-inline-end: 10px;
     display: flex;
+    align-items:stretch;
     flex-direction: column;
     justify-content: space-between;
     background: #003087;
@@ -31,17 +32,17 @@
 /*blanco arriba izquierda*/
 .white-top-left{
     width: 85%;
-    height:42%;
+    height:45%;
     display: flex;
-    padding: 0 0 10px 0;
+    
     align-items: flex-start;
     background: white;
 }
 /*blanco izquierda abajo*/
 .white-left-down{
     width: 85%;
-    height:42%;
-    padding:10px 0 0 0;
+    height:45%;
+    
     display: flex;
     align-items: flex-end;
     background: white;
@@ -49,37 +50,34 @@
 /*blanco arriba a la derecha*/
 .white-top-right{
     width:100%;
-    height:42%;
-    padding: 0 0 10px 0;
-    margin-right: 3px;
+    height:45%;
+    margin-right: 20px;
     display: flex;
-    justify-content: flex-start;
+    justify-content: flex-end;
     background: white;
 }
 /*blanco abajo a la derecha*/
 .white-down-right  {
     width:100%;
-    height:42%;
-    padding: 10px 0 0 0;
-    margin-right: 3px;
+    height:45%;
+  
+   
     display: flex;
     align-items: flex-end;
-    justify-content: flex-start;
+    justify-content: flex-end;
     background: white;
 }
 /*cuadros rojos de la izquierda(arriba,abajo)*/
 .red-left{
-    width: 96%;
+    width: 85%;
     height: 90%;
-    margin-right: 35px;
     background: #C8102E;
 }
 
 /*cuadros del lado derecho*/
 .red-right{
-    width: 100%;
+    width: 90%;
     height:90%;
-    margin-left:35px;
     background: #C8102E;
 }
 
